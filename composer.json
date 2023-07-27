@@ -1,0 +1,25 @@
+{
+    "name": "spacephp/spacephp",
+    "description": "Space PHP framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "spacephp",
+            "email": "hqnhatdn@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0.0",
+        "spacephp/core": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+           
+        ]
+    }
+}
