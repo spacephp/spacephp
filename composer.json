@@ -12,7 +12,9 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=7.0.0",
-        "spacephp/core": "dev-main"
+        "spacephp/core": "dev-main",
+        "phpmailer/phpmailer": "^6.8",
+        "mongodb/mongodb": "^1.17"
     },
     "autoload": {
         "psr-4": {
