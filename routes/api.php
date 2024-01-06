@@ -1,6 +1,7 @@
 <?php
 use Illuminate\Route;
+use App\Controllers\Api\UserController;
 
-Route::get('/welcome', function() {
-    return ['message' => 'Welcome'];
+Route::group(['namespace' => '/api'], function() {
+    Route::get('/users', [UserController::class, 'index']);
 });
